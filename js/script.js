@@ -159,8 +159,13 @@ $(document).ready(function(){
     });
 
 
-    $('#setion3, #setion2, #setion1, .infrastructure ul li a').click(function () {
-      return false;
+    $('.plan-map__section').click(function () {
+        var src = $(this).attr('data-plan');  
+                
+        if (src.length > 0) {      
+          $.fancybox('<div class="popup-apart"><img src="'+src+'"></div>');           
+        }
+        return false;
     });
     
 
