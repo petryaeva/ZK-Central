@@ -1110,7 +1110,7 @@ a:hover {
     vertical-align: bottom;
 }
 .nav.nav--fixed .nav-list:before {
-    left: -6%;
+    left: -3%;
 }
 .btn--orange:hover {
     -webkit-box-shadow: inset 0px -1px 3px 0px rgba(177,87,0,1);
